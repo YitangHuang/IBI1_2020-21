@@ -1,0 +1,3 @@
+I met a lot problems when pushing my code to github.
+So i download Gitgub desktop, clone my repo and make changes directly.
+Hope you not mind!
