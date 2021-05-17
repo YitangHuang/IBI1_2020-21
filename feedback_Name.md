@@ -13,5 +13,5 @@ Practical 6:
 2.Remaked the boxplot 
 3.Simplified the code
 4.Added more pseudocode
-No other changes are made according to the feedback.
+
 
