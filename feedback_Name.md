@@ -3,7 +3,7 @@ I have made a lot of enhancement depending on the feedback:
 Practical 4:
 1. Created a website
 2.Improved my website and added one picture to make it more vivid.
-2.Added more details
+3.Added more details
 
 Practical 5:
 1.Submitted the whole practical 5 folder which were not submitted before.
