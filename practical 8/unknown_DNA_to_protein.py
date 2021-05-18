@@ -26,9 +26,6 @@ genetic_code = {
 
 protein = ''
 seq_name = []
-DNA_sequence = ''
-protein_sequence = ''
-all_DNA_list = []
 all_protein_list = []     #  very similar steps to the previous task
 
 filename = input("Please input the file name: ")      # let the user input a file name, and the name is unknown_function.fa
@@ -37,19 +34,22 @@ line = f1.readlines()         # use the same idea to get the dna sequence
 for i in range(len(line)):
     if line[i].startswith('>'):
         seq_name.append(line[i].split(' ')[0])
+        DNA_sequence = ''
         for j in range(i + 1, len(line)):
             if line[j].startswith('>'):
                 break
             else:
                 DNA_sequence += line[j].replace('\n', '')
-    all_DNA_list.append(DNA_sequence)
-
+                protein = ""
+        for k in range(0, len(DNA_sequence), 3):
+            codon = DNA_sequence[k:k+3:1]
+            protein += genetic_code[codon]
+        all_protein_list.append(protein)
 #      translate the dna sequence into protein sequence.
-for l in range(0,len(seq_name)):
-    for k in range(0, len(all_DNA_list[l]), 3):  # step is 3, because a codon is made up of three base pairs.
-        codon = all_DNA_list[l][k:k + 3:1]  # When we read it, we should go through 3 base pairs at one go.Step is 1 so we can go through all the base pairs
-        protein += genetic_code[codon]  # translate
-    all_protein_list.append(protein)           # add all the protein seq to a list
+
+# just to ensure nothing goes wrong
+print(len(seq_name))
+print(len(all_protein_list))
 
 f2 = open("The protein sequence.fa", 'w')        # output the file
 for j in range(len(seq_name)):
