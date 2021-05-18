@@ -1,0 +1,32 @@
+
+-----------------------------SUMMARY---------------------------------------------------------------------------------------------------------
+
+1. I got three kinds of sequences from the given .fa file using what I learned at last few practicals. They are:
+
+SOD2_human sequence: MLSRAVCGTSRQLAPVLAYLGSRQKHSLPDLPYDYGALEPHINAQIMQLHHSKHHAAYVNNLNVTEEKYQEALAKGDVTAQIALQPALKFNGGGHINHSIFWTNLSPNGGGEPKGELLEAIKRDFGSFDKFKEKLTAASVGVQGSGWGWLGFNKERGHLQIAACPNQDPLQGTTGLIPLLGIDVWEHAYYLQYKNVRPDYLKAIWNVINWENVTERYMACKK
+SOD2_mouse sequence MLCRAACSTGRRLGPVAGAAGSRHKHSLPDLPYDYGALEPHINAQIMQLHHSKHHAAYVNNLNATEEKYHEALAKGDVTTQVALQPALKFNGGGHINHTIFWTNLSPKGGGEPKGELLEAIKRDFGSFEKFKEKLTAVSVGVQGSGWGWLGFNKEQGRLQIAACSNQDPLQGTTGLIPLLGIDVWEHAYYLQYKNVRPDYLKAIWNVINWENVTERYTACKK
+Random_sequence: WNGFSEWWTHEVDYNQKLTIENNQRPKIHEHEQWGLRQSPPPPKLCCPTCQMCERMRHQNRFAPLMEVGCRCMCWFHDWWVISVGTWLHTVIMYMMWPKRFHHNECPKACFRTTYTRKNHHALYWMLFEMCCYDQDVVWSKTHIFTTVRDIEVYVEQVFFIWGPLCHVAIACYEPVKTIRRRIPMYLCRHCIRGDNSYLLACCSIIYYFYHHMSYYGVLDIL
+
+2.I collected three sets of score data. They are:
+score condition:
+human vs mouse:                   1091
+human vs random sequence:  -250
+mouse vs random sequence:   -250
+
+3.I collected three sets of percentage data. They are:
+percentage condition:
+Human vs mouse: 89.63963963963964
+human vs random: 5.405405405405405
+mouse vs random: 5.8558558558558556
+
+High alignment score usually stands for high similarity of the sequences. 
+High alignment score (1091, compared to human and random sequence's -250) between human and mouse on SOD2 protein suggests may suggests that
+human and mouse may have evolved from the same species. Another hypothesis can be raised， which is SOD2 plays a crucial role in maintaining normal physiological activities
+and is widly found in multiple spices. Natural selection may be responsible for the slight variation in the sequence.
+
+
+
+
+
+
+
