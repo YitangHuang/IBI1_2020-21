@@ -1,0 +1,15 @@
+Question: How have new cases and total cases developed over time in Spain?
+
+Answer to the question starts form line 53, and ends up with line 61
+
+Result & Disscusion 
+According to the plot,
+Before 3/06/20, no cases are seen in Spain.
+Around 3/20/20, the infections began to appear in Spain.
+After 3/20/20, there was an increasing rate of total cases growth.
+The number of new cases per day also increased overall, but declined slightly after the 26th.
+
+We can draw the conclusion that Spain's outbreak was explosive, with a large number of new cases in a short period of time.
+Around 3/06/20, it's possible that someone carrying the virus has crossed into Spain.
+It is clear that Spain has not done enough to cope, and the outbreak is likely to continue to worsen in the near future.
+ 
